@@ -13,7 +13,7 @@ bp = Blueprint("osm2tactile", __name__)
 def index():
     # sepcify coordinates
     # Witteslbachstraße 5, Vienna (Bundes-Blindeninstitut)
-    lat, lon = 48.20635, 16.39929
+    lat, lon = 36.836096, -1.322186
     # TODO: query lon, lat coordinates from nominatim for given address
 
     # 1/60 = 1852m
